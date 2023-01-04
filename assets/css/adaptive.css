@@ -1,0 +1,190 @@
+/*1000px Приближати*/
+
+@media screen and (max-width: 1000px) {
+	#container {
+		width: 800px;
+	}
+
+	#lang-rubik > .item-lang {
+		margin-left: 8px;
+		margin-right: 8px;
+	}
+}
+
+@media screen and (max-width: 800px) {
+	#container {
+		width: 700px;
+	}
+
+	#lang-rubik > .item-lang {
+		font-size: 21px;
+		margin-left: 5px;
+		margin-right: 5px;
+	}
+}
+
+/*700px Приближати*/
+
+@media screen and (max-width: 700px) {
+	#container {
+		width: 600px;
+	}
+
+	#logo {
+		width: 100px;
+		height: 100px;
+	}
+
+	#text {
+		font-size: 10px;
+	}
+
+	#text > span {
+		font-size: 20px;
+	}
+
+	#of {
+		flex-direction: column;
+	}
+
+	#header {
+		justify-content: center	;
+	}
+
+	#github-button:hover {
+		transition: all 0.4s;
+		padding: 40px;
+	}
+	
+	#lang-rubik > .item-lang {
+		font-size: 15px;
+		font-family: bold;
+
+	}
+
+}
+
+/*600px Приближати*/
+
+@media screen and (max-width: 600px) {
+	#container {
+		width: 500px;
+	}
+
+	#github:hover #github-link {
+		display: none;
+	}
+
+	#lang-rubik > .item-lang {
+		font-size: 12px;
+		margin-left: 3px;
+		margin-right: 3px;
+	}
+
+	#last-result {
+		overflow-x: scroll;
+		max-width: 190px;
+	}
+}
+
+/*500px Приближати*/
+
+@media screen and (max-width: 500px) {
+	#container {
+		width: 400px;
+	}
+
+	#header {
+		justify-content: space-between;
+	}
+
+	#of {
+		flex-direction: row;
+	}
+
+	#text > h1 {
+		display: none;
+	}
+
+	#lang-rubik > .item-lang {
+		font-size: 10px;
+		margin-left: 2px;
+		margin-right: 2px;
+	}
+
+	#button-start-stop-reset {
+		display: flex;
+		flex-direction: column;
+		align-items: center;
+		justify-content: center;
+	}
+
+	#button-start-stop-reset > button {
+		font-size: 13px;
+		margin: 4px 0px 0px 0px;
+	}
+
+	#number-for-timer {
+		font-size: 100px;
+	}
+}
+
+/*400px Приближати*/
+
+@media screen and (max-width: 400px) {
+	#container {
+		width: 300px;
+	}
+
+	#header {
+		display: none;
+	}
+
+	#github-button:hover {
+		transition: all 0.4s;
+		padding: 30px;
+	}
+
+	#github {
+		margin-right: 0px;
+	}
+
+	#github-button {
+		padding: 25px;
+		margin-right: 0px;
+	}
+
+	#lang-rubik > .item-lang {
+		font-size: 8px;
+		margin-left: 2px;
+		margin-right: 2px;
+	}
+
+}
+
+/*300px Приближати*/
+
+@media screen and (max-width: 300px) {
+	#container {
+		width: 200px;
+	}
+
+	#content {
+		justify-content: start;
+		height: 400px;
+	}
+
+	#footer {
+		font-size: 15px;
+	}
+}
+
+
+
+/*1300 Віддаляти*/
+
+@media screen and (min-width: 1300px) {
+	#container {
+		width: 1300px;
+	}
+}

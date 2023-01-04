@@ -1,0 +1,19 @@
+@font-face {
+	font-family: Bold;
+	src: url('../fonts/OpenSans-Bold.ttf');
+}
+
+@font-face {
+	font-family: Normal;
+	src: url('../fonts/OpenSans-Regular.ttf');
+}
+
+@font-face {
+	font-family: Light;
+	src: url('../fonts/OpenSans-Light.ttf');
+}
+
+@font-face {
+	font-family: Timer;
+	src: url('../fonts/timer-font.ttf');
+}

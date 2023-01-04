@@ -1,0 +1,4 @@
+black - #233142
+light black - #455D7A
+red - #F95959
+white - #E3E3E3
